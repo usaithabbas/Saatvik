@@ -117,7 +117,7 @@
 		  <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
 			<h3 class="text-10 fw-600 mb-5">Send me a note</h3>
 			<!-- Contact Form -->
-			<form id="contact-form" class="form-border" action="php/mail.php" method="post">
+			<form id="contact-form" class="form-border" action="" name="contact-form" method="post">
                 <div class="mb-4">
 					<label class="form-label text-5" for="name">Your Name:</label>
 					<input id="name" name="name" type="text" class="form-control text-5 py-0" required placeholder="">
@@ -130,8 +130,9 @@
 					<label class="form-label text-5" for="form-message">Describe what you need:</label>
 					<textarea id="form-message" name="form-message" class="form-control text-5 py-0" rows="4" required placeholder=""></textarea>
 				</div>
-				<button id="submit-btn" class="btn btn-primary" type="submit">Send Message</button>
+				<button id="submit-btn" class="btn btn-primary" name="send" type="submit">Send Message</button>
             </form>
+			<script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=q0q7pkof&n=n1.ratufa.io"></script>
 			<!-- Contact Form End -->
 		  </div>
 		</div>
